@@ -1,0 +1,81 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+.card  {
+    width: 220px;
+    height: 100%;
+}
+
+.card-title {
+    font-size: 0.9rem;
+    height: 100%;
+}
+
+.card-img-top {
+    padding: 25px;
+    width: 220px;
+    height: 220px;
+}
+
+.alert {
+  position: fixed;
+  top: 50px;
+  width: 50%;
+  left: 25%;
+  z-index: 1051;
+}
+
+.btn-lg {
+  padding: 0.5rem 0.5rem;
+  margin: 3%;
+}
+
+.buy {
+  padding: 0.5rem 0.5rem;
+  margin: 3%;
+}
+
+.nav-item .nav-link:hover {
+  color: #ffffff;
+  background-color: #593196;
+  cursor: pointer;
+}
+
+body {
+    max-width: 1640px;
+    margin: auto;
+}
+
+.navbar-brand {
+    text-align: center;
+  }
+
+@media (max-width: 575px) {
+
+.search {
+        display: none;
+    }
+
+.package {
+        display: none;
+    }
+}
+
+@media (max-width: 440px) {
+
+.card {
+    width: 150px;
+    height: 100%;
+} 
+
+.card-img-top {
+    padding: 25px;
+    width: 150px;
+    height: 150px;
+}
+.card-title {
+    font-size: 0.7rem;
+    height: 100%;
+}
+}
